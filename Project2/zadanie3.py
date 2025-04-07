@@ -5,7 +5,7 @@ l2 = input("Введите второй список через пробел:").
 
 l01 = set(l1) & set(l2)
 l02 = set(l1).intersection(set(l2))
-print(f"Общие элементы(.intersection()): {' '.join(l02) if l02 else "отсутствуют"} \nОбщие элементы (&):{' '.join(l02) if l02 else "отсутствуют"}")
+print(f"Общие элементы(.intersection()): {' '.join(l02) if l02 else "отсутствуют"} \nОбщие элементы (&):{' '.join(l01) if l01 else "отсутствуют"}")
 
 
 # Посняние кода:
